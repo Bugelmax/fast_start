@@ -31,8 +31,10 @@ body{
 	margin: 10px 0;
 	border: 1px solid #231f20;
 }
-.sendForm form div{
+.sendForm form {
 	position: relative;
+	height: auto;
+	padding-bottom: 70px;
 }
 .btn{
 	width: 230px;
@@ -45,4 +47,5 @@ body{
 	background: #f78f1e;
 	position: absolute;
 	right: 0;
+	bottom: 0;
 }

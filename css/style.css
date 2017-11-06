@@ -66,3 +66,19 @@ body{
 .banner img {
 	width: 100%;
 }
+
+@media screen and (max-width: 800px){
+	body {
+		height: auto;
+	}
+	.container{
+		flex-direction: column;
+	}
+	.leftContent{
+		text-align: center;
+		padding-bottom: 40px;
+	}
+	.leftContent p {
+		position: relative;
+	}
+}

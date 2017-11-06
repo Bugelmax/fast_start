@@ -6,18 +6,20 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 	color: #231f20;
-	height: 100vh;
+	
+}
+.container{
 	display: flex;
 	flex-direction: column;
+	height: 100vh;
 }
-.container {
+.content {
 	display: flex;
     justify-content: space-between;
  }
- .header {
+.header {
  	padding: 20px 40px;
- 	
- }
+}
 .leftContent{
 	position: relative;
 }
@@ -49,11 +51,12 @@ body{
 	height: auto;
 	padding-bottom: 70px;
 }
-.btn{
+.sendForm form .btn{
 	width: 200px;
     height: 40px;
 	border:none;
 	font-size: 18px;
+	border: none;
 	border-radius: 10px;
 	text-align: center;
 	color:#fff;
@@ -61,24 +64,29 @@ body{
 	position: absolute;
     right: -10px;
     bottom: 0px;
+    
 }
-
 .banner img {
 	width: 100%;
 }
-
-@media screen and (max-width: 800px){
-	body {
+.content.banner {
+    height: 100%;
+}
+@media (max-width: 800px){
+	.container{
+		display: block;
 		height: auto;
 	}
-	.container{
-		flex-direction: column;
+	.content{
+	    display: block;
+	    text-align: center;
 	}
-	.leftContent{
-		text-align: center;
-		padding-bottom: 40px;
+	.leftContent {
+	    padding-bottom: 40px;
+	    position: relative;
 	}
 	.leftContent p {
-		position: relative;
+	    position: relative;
+	    padding-top: 20px;
 	}
 }

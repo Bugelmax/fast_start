@@ -6,21 +6,26 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 	color: #231f20;
-	
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 .container {
-	height: 100vh;
-	margin: 0 auto;
-	padding-top: 20px;
-	background: url(../img/banner.png) no-repeat bottom;
-    display: flex;
-    justify-content: space-around;
-    
+	display: flex;
+    justify-content: space-between;
+ }
+ .header {
+ 	padding: 20px 40px;
+ 	
+ }
+.leftContent{
+	position: relative;
 }
 .leftContent p {
 	text-transform: uppercase;
 	font-size: 20px;
 	text-align: center;
+	position: absolute;
 }
 .sendForm p{
 	font-size: 16px;
@@ -54,6 +59,10 @@ body{
 	color:#fff;
 	background: #f78f1e;
 	position: absolute;
-    right: 40px;
+    right: -10px;
     bottom: 0px;
+}
+
+.banner img {
+	width: 100%;
 }

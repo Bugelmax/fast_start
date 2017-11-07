@@ -62,7 +62,7 @@ body{
 	color:#fff;
 	background: #f78f1e;
 	position: absolute;
-    right: -10px;
+    right: 10px;
     bottom: 0px;
 }
 .banner img {
@@ -87,5 +87,9 @@ body{
 	.leftContent p {
 	    position: relative;
 	    padding-top: 20px;
+	}
+	section.sendForm {
+	    padding-left: 20px;
+	    padding-bottom: 30%;
 	}
 }

@@ -9,17 +9,14 @@ body{
 	
 }
 .container{
-	display: flex;
-	flex-direction: column;
 	height: 100vh;
+	background: url(../img/banner.png) no-repeat bottom;
 }
 .content {
 	display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding-top: 20px;
  }
-.header {
- 	padding: 20px 40px;
-}
 .leftContent{
 	position: relative;
 }
@@ -64,7 +61,6 @@ body{
 	position: absolute;
     right: -10px;
     bottom: 0px;
-    
 }
 .banner img {
 	width: 100%;

@@ -10,7 +10,10 @@ body{
 }
 .container{
 	height: 100vh;
-	background: url(../img/banner.png) no-repeat bottom;
+	background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
 }
 .content {
 	display: flex;
